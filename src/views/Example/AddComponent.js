@@ -16,9 +16,7 @@ class AddComponent extends React.Component {
       salary: event.target.value,
     });
   };
-  handleOnClickDelete = () => {
-    alert("Click me");
-  };
+
   handleSubmit = (event) => {
     event.preventDefault();
     if (!this.state.titlle || !this.state.salary) {
